@@ -1,4 +1,4 @@
-# login_php
+# Login PHP
 
 Repositório de exemplo para página de login funcional com PHP;
 
@@ -9,4 +9,5 @@ Este repositório tem por intuito demonstrar como uma página de login funcional
     <li>Tabela SQL</li>
     <li>Tela de Cadastro</li>
     <li>Tela de Login</li>
+    <li>Salvar senhas em formato hash</li>
 </ul>
