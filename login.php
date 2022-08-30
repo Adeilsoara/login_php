@@ -1,17 +1,17 @@
 <?php
-// Initialize the session
+//Inicialização da sessão
 session_start();
  
-// Check if the user is already logged in, if yes then redirect him to welcome page
+//Verifar se o usuário já está logado, se sim então redireciona para a página de boas vindas
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     header("location: welcome.php");
     exit;
 }
- 
-// Include config file
+
+// Incluir arquivos de configuração
 require_once "config.php";
  
-// Define variables and initialize with empty values
+// Definir as variáveis e inicializar com valores vazios
 $username = $password = "";
 $username_err = $password_err = $login_err = "";
  
