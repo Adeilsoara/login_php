@@ -1,8 +1,8 @@
 <?php
-// Initialize the session
+//Iniciar a sessão
 session_start();
  
-// Unset all of the session variables
+// Resetar todas as variáveis de sessão
 $_SESSION = array();
  
 // Destroy the session.
