@@ -107,7 +107,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
-    <div class="wrapper">
+    <div class="container">
+        <div class="justify-content-center align-items-center row">
+        <div class="wrapper">
         <h2>Sign Up</h2>
         <p>Preencha esse formulário para criar um login.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
@@ -132,6 +134,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <p>Already have an account? <a href="telalogin.php">Login here</a>.</p>
         </form>
-    </div>    
+         </div> 
+        </div>
+    </div>   
 </body>
 </html>
